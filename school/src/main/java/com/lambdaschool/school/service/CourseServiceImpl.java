@@ -43,4 +43,9 @@ public class CourseServiceImpl implements CourseService
             throw new EntityNotFoundException(Long.toString(id));
         }
     }
+
+    @Override
+    public Course save(Course course) {
+        return null;
+    }
 }
